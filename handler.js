@@ -33,6 +33,7 @@ module.exports.dept = async (event) => {
     },
     body: JSON.stringify(
       {
+        "response_type": "in_channel",
         "blocks": [
           {
             "type": "image",
